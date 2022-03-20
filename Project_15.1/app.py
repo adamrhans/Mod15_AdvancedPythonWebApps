@@ -164,7 +164,11 @@ def addBook():
         # expects pure json with quotes everywheree
         author = request.form.get("author")
         title = request.form.get("title")
-        newbook = {"author": author, "title": title}
+        year = request.form.get("year")
+        language = request.form.get("language")
+        country = request.form.get("country")
+        id = int(books[-1]['id'])
+        newbook = {"id":id+1,"author": author, "title": title, "country":country, "year":year, "language":language}
         books.append(newbook)
         return render_template(
             "books.html", books=books, username=username, title="books"
