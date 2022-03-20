@@ -15,9 +15,8 @@ In this project, you will expand on the concepts you learned in Module 11 to cre
 - Open a Terminal window on your machine and install the flask-restful and flask-jwt-extended libraries using the following commands:
   ```
   pip install flask-restful
-  pip install flask-jwt-extended`
+  pip install flask-jwt-extended
   ```
-- Download and unzip the Project 15.1 folder on your machine.
 - In the app.py file, add two more books of your choice.
 - Inside the static folder, add the cover images for the books that you just added.
 - Inside the books.html file, add a line of html code to match each book cover to the book in the books list. Use the following template for this line of html code:
