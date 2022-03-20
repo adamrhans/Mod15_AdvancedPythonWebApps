@@ -6,6 +6,8 @@ In this project, you will expand on the concepts you learned in Module 11 to cre
 
 #### Data Engineering Concepts:
 - Use Flask Web Server to generate a lightweight web app
+  - Flask Restful Library
+  - Flask JWT Extended Library
 - Use Python to programitaclly load the /routes of the app and verify user logins and roles, which grant the user (depending on their role) access to certain parts of the site. 
 - Utilize JSON Web Tokens (JWT) for granting access.
 
@@ -47,5 +49,3 @@ In this project, you will expand on the concepts you learned in Module 11 to cre
 #### Results
 View the screenshots of these steps. 
 
-#### NOTE: 
-Project will continue in 15.2 
