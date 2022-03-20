@@ -40,6 +40,7 @@ In this project, you will expand on the concepts you learned in Module 11 to cre
   ```
 - In your browser, navigate to localhost:5000/
 - Log in using the admin username and password that you defined in your app.py file.
+  - Use "testuser" for username/password
 - After logging in, navigate to the “Books” tab. 
 - Navigate to the “Add Books” tab. Then, log out of the admin account.
 - Next, log in using the reader username and password that you defined in your app.py file. 
