@@ -4,7 +4,12 @@
 #### Overview:
 In this project, you will expand on the concepts you learned in Module 11 to create a website that shows your collection of books. You will start by adding the cover image for each book so that they are rendered on your website beside their corresponding book titles. Next, you will add more users along with their respective usernames and passwords. Building on what you learned in Module 11, you will also set their roles to either admin or reader. This will allow the users to perform different actions on the website based on their roles. Finally, you will define a function that only allows users with the admin role to add new books to your website.
 
-##### Steps:
+#### Data Engineering Concepts:
+- Use Flask Web Server to generate a lightweight web app
+- Use Python to programitaclly load the /routes of the app and verify user logins and roles, which grant the user (depending on their role) access to certain parts of the site. 
+- Utilize JSON Web Tokens (JWT) for granting access.
+
+#### Steps:
 - Open a Terminal window on your machine and install the flask-restful and flask-jwt-extended libraries using the following commands:
   ```
   pip install flask-restful
