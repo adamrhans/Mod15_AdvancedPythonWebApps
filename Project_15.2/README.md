@@ -6,8 +6,8 @@ In this project, I will practice using Python lists, functions, and dictionaries
 In the first part of this project, I will work with a simplified version of the database that is constructed using lists. Next, I will create a more advanced, faster, and efficient version of the database that uses dictionaries to store its entries. Finally, I will define some advanced Python functions that compute the weighted average for each student in the database.
 
 ### Data Engineering Tools:
-- Python
-- Advanced Python Functions
+- Create a relational database using Python.
+- Implement redundant *dictionaries* in Python.
 
 ### Project Files
 [Part 1](Part_1/Project15.2.ipynb)
